@@ -90,9 +90,9 @@ def main():
     
     game_list_path = os.path.join(file_path, 'game_list.txt')
     
-    # game_list = load_game_list(game_list_path)
+    game_list = load_game_list(game_list_path)
 
-    game_list = ["Grim Dawn", "Venba"]
+    # game_list = ["Grim Dawn", "Venba"]
 
     output_folder = os.path.join(file_path, "output")
 
